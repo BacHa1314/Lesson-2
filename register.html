@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí thành viên</title>
+</head>
+<body>
+    <h1>Đăng kí thành viên</h1>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Họ và Tên</td>
+                    <td><input type="text" name="user" id="user" required></td>
+                </tr>
+                <tr>
+                    <td>Tên đăng nhập</td>
+                    <td><input type="text" name="userName" id="userName" required></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu</td>
+                    <td><input type="password" name="pass" id="pass" required></td>
+                </tr>
+                <tr>
+                    <td>Ảnh đại diện</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Thư điện tử</td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <input type="radio" name="gtNam" id="gtNam" checked>Nam
+                        <input type="radio" name="gtNu" id="gtNu">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích</td>
+                    <td>
+                        <input type="checkbox" name="chk" id="chk1" checked>Bóng đá 
+                        <input type="checkbox" name="chk" id="chk2" >Xem phim <br>
+                        <input type="checkbox" name="chk" id="chk3" checked>Du lịch 
+                        <input type="checkbox" name="chk" id="chk4" checked>Bơi 
+                        <input type="checkbox" name="chk" id="chk5" checked>Nghe nhạc 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quê quán</td>
+                    <td><select name="chonTinh" id="chonTinh">
+                        <option value="">---Chọn Tỉnh---</option>
+                        <option value="1">Hà Nội</option>
+                        <option value="2">TP.HCM</option>
+                        <option value="3">Đà Nẵng</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" name="diaChi" id="diaChi" required></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="tel" name="tel" id="tel" required></td>
+                </tr>
+                <tr>
+                    <td>Mô tả ngắn</td>
+                    <td>
+                        <textarea name="moTa" id="moTa" cols="30" rows="8"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Đăng Ký">
+                        <input type="reset" value="Làm Lại">
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
+    </form>
+</body>
+</html>

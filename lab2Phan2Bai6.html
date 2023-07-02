@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thông tin người sử dụng</title>
+</head>
+<body>
+    <h1>Đăng ký thông tin người sử dụng</h1>
+    <form>
+        <table width="700px">
+            <tbody>
+                <tr>
+                    <td>Tên đăng nhập</td>
+                    <td><input type="text" name="userName" id="userName" required></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu</td>
+                    <td><input type="password" name="pass" id="pass" required></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại mật khẩu</td>
+                    <td><input type="password" name="pass" id="pass" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Giới tính: </td>
+                    <td>
+                        <input type="radio" name="gt" id="gtNam" checked>Nam
+                        <input type="radio" name="gt" id="gtNu">Nữ
+                    </t>
+                </tr>
+                <tr>
+                    <td>Độ tuổi</td>
+                    <td>
+                        <input type="radio" name="tuoi" id="tuoi1" checked>Dưới 13 tuổi
+                        <input type="radio" name="tuoi" id="tuoi2">Từ 13 đến 17 tuổi
+                        <input type="radio" name="tuoi" id="tuoi3">Từ 18 đến 25 tuổi
+                        <input type="radio" name="tuoi" id="tuoi4">Trên 25 tuổi
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích của bạn: </td>
+                    <td>
+                        <input type="checkbox" name="chk" id="chk1" >Âm nhạc
+                        <input type="checkbox" name="chk" id="chk2" >Game
+                        <input type="checkbox" name="chk" id="chk3" >Thể thao
+                        <input type="checkbox" name="chk" id="chk4" >Du lịch
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nghề nghiệp</td>
+                    <td>
+                        <select name="job" id="job">
+                            <option value="">Chọn ngành nghề</option>
+                            <option value="1">Giáo viên</option>
+                            <option value="2">Bác sĩ</option>
+                            <option value="3">Công an</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mô tả về bản thân</td>
+                    <td>
+                        <textarea name="moTa" id="moTa" cols="30" rows="5" placeholder="Mô tả về bản thân bạn..."></textarea>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" >
+                        <input type="submit" name="dangKy" id="dangKy" value="Đăng ký">
+                        <input type="reset" name="lamLai" id="lamLai" value="Làm lại">                       
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
